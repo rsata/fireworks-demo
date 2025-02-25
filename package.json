@@ -1,0 +1,25 @@
+{
+  "name": "fireworks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon -e ts,js --exec ts-node -r tsconfig-paths/register src/app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/koa__router": "^12.0.4",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@koa/bodyparser": "^5.1.1",
+    "@koa/router": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "koa": "^2.15.4",
+    "openai": "^4.85.4"
+  }
+}

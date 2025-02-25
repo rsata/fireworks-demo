@@ -82,13 +82,6 @@ For driver's licenses, the response includes an additional address object:
 }
 ```
 
-#### Error Response
-```json
-{
-  "error": "Error message here"
-}
-```
-
 ## Files
 
 ### `app.ts`

@@ -23,6 +23,7 @@ const service = async (input: Input):Promise<Output> => {
     presence_penalty: 0,
     frequency_penalty: 0,
     temperature: 0,
+    response_format: { type: "json_object" },
     messages: [
       {
         role: "system",
